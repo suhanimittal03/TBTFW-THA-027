@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 from tabulate import tabulate
 
-conn = pg2.connect(database="suhani", user='suhani', password='Suhani@03', host="localhost", port=5432)
+conn = pg2.connect(database="db_name", user='user_name', password='password', host="localhost", port=5432)
 
 cursor = conn.cursor()
 
